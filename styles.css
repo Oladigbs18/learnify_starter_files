@@ -1,0 +1,87 @@
+
+body{
+        padding: 10px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        align-items: center;
+        justify-content: center;
+        margin: 100px 300px;
+        height: auto;
+        width: fit-content;
+}
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+}
+#heading {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+#heading img{
+    width: 25%;
+    height: 25%;
+    padding-top: 75px;
+}
+a:link{
+    text-decoration: none;
+    color: #13bad8;
+    font-size: medium;
+}
+.group label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 75%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.group input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #13bad8;
+    box-shadow: 0 0 5px 0 #13bad8;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    color: white;
+    background-color: purple;
+    border: none;
+}
+button:hover {
+    background-color: #13bad8;
+}
+#change{
+    text-align: right;
+    margin: 10px 0;
+    padding-left: 50%;
+    font-size: 16px;
+}
+#Sign {
+    margin: 10px 0;
+    color: rgb(8, 8, 8);
+    font-size: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+#Sign a:link{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: medium;
+}
